@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<glade-interface>
+  <!-- interface-requires gtk+ 2.16 -->
+  <!-- interface-naming-policy project-wide -->
+  <widget class="GtkAboutDialog" id="finestra_info">
+    <property name="border_width">5</property>
+    <property name="window_position">center</property>
+    <property name="type_hint">normal</property>
+    <property name="skip_taskbar_hint">True</property>
+    <property name="program_name">XXXX</property>
+    <property name="copyright" translatable="yes">Copyright &#xA9; 2012 - 2014 XXXX authors</property>
+    <property name="comments" translatable="yes">Software per la movimentazione di un manipolatore 5 assi</property>
+    <property name="website">In lavorazione</property>
+    <property name="website_label" translatable="yes">Non ancora disponibile</property>
+    <property name="license" translatable="yes">XXXX &#xE8; software libero; &#xE8; possibile ridistribuirlo o modificarlo
+secondo i termini della licenza GNU General Public License, come
+pubblicata dalla Free Software Foundation; versione 2 della licenza, o
+(a scelta) una versione pi&#xF9; recente.
+
+PyGna &#xE8; distribuito nella speranza che possa risultare utile,
+ma SENZA ALCUNA GARANZIA, nemmeno la garanzia implicita di
+COMMERCIABILIT&#xC0; o APPLICABILIT&#xC0; PER UNO SCOPO PARTICOLARE.
+Per maggiori dettagli consultare la GNU General Public License.
+
+Una copia della GNU General Public License dovrebbe essere stata
+fornita con XXXX. In caso contrario scrivere a:
+ivanarke@tin.it
+
+</property>
+    <property name="authors">Archetti Ivan &lt;ivanarke@tin.it&gt;
+</property>
+    <property name="artists"></property>
+    <signal name="response" handler="on_finestra_info_response"/>
+    <child internal-child="vbox">
+      <widget class="GtkVBox" id="dialog-vbox2">
+        <property name="visible">True</property>
+        <property name="spacing">2</property>
+        <child>
+          <placeholder/>
+        </child>
+        <child internal-child="action_area">
+          <widget class="GtkHButtonBox" id="dialog-action_area2">
+            <property name="visible">True</property>
+            <property name="layout_style">end</property>
+          </widget>
+          <packing>
+            <property name="expand">False</property>
+            <property name="pack_type">end</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</glade-interface>
