@@ -1,1 +1,21 @@
-Programma per il controllo di un manipolatore a 5 assi scritto in Python
+Manipolatore5Assi01
+===================
+
+Versione 01
+Versione iniziale del programma di controllo di un manipolatore a 5 assi
+
+finestra_info.glade
+mainwin.glade
+progviewer.glade
+
+advice.py
+arduinodev.py
+calcmoto.py
+finestra_info.py
+gestfile.py
+kost.py
+programviewer.py
+
+
+
+
